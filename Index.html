@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Library of Congress Search Engine</h1>
-    <input type="input" placeholder="Search!">
-    <div class="dropdown">
-      <button class="dropbtn">Select a format...</button>
-      <div class="dropdown-content">
-        <a href="#">Maps</a>
-        <a href="#">Audio</a>
-        <a href="#">Photos</a>
-        <a href="#">Manuscript</a>
-        <a href="#">Newspapers</a>
-        <a href="#">Film and Videos</a>
-        <a href="#">Notated Music</a>
-        <a href="#">Websites</a>
-      </div>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library of Congress Search Engine</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<body>
 
-    <button>Click to Search!</button>
-  </body>
+<div id="container">
+<div id="content">
+  <input type="input" placeholder="Search!">
+  
+  <div class="dropdown">
+    <button class="dropbtn">Select a format...</button>
+    <div class="dropdown-content">
+      <a href="#">Maps</a>
+      <a href="#">Audio</a>
+      <a href="#">Photos</a>
+      <a href="#">Manuscript</a>
+      <a href="#">Newspapers</a>
+      <a href="#">Film and Videos</a>
+      <a href="#">Notated Music</a>
+      <a href="#">Websites</a>
+
+    <h1>Library of Congress Search Engine</h1>
+
+    <form action="/action_page.php">
+        <input type="text" id="iname" name="iname" placeholder="Search">
+        <input type="submit" value="Search">
+    </form>
+</div>
+</div>
+
+</body>
 </html>
